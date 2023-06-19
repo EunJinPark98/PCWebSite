@@ -41,7 +41,7 @@ a{
     margin-left: auto;
     margin-right: auto;
 }
-/* 헤더 영역 */
+/* 헤더1 영역 */
 .popup{
     display: flex;
     align-items: center;
@@ -114,4 +114,36 @@ a{
     font-size: 10px;
     color: #fff;
 }
+/* 헤더2 영역 */
+.header2{
+    padding-top: 41px;
+}
+.header2 .inner{
+    display: flex;
+    justify-content: space-between;
+}
+.gnb ul{
+    display: flex;
+}
+.gnb li a{
+    margin-right: 30px;
+    font-size: 18px;
+    color: #231F20;
+}
+.gnb ul li:first-child a{
+    display: block;
+    width: 23px;
+    height: 14px;
+    padding-top: 16px;
+    background-image: url(/img/main/icon_menu.png);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    background-position: center;
+}
 
+.lettering{
+    width: 319px;
+    height: 50px;
+    background-image: url(/img/main/lettering.png);
+    text-indent: -99999px;
+}
