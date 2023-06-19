@@ -18,7 +18,10 @@
     justify-content: space-between;
 }
 /* 메인 3 */
-.main3 h1{
+.main3{
+    margin-bottom: 130px;
+}
+.title{
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 40px;
@@ -44,4 +47,10 @@
 }
 .m3_right{
     float: right;
+}
+/* 메인 4 */
+.main4 ul{
+    display: flex;
+    flex-wrap: wrap;
+
 }
