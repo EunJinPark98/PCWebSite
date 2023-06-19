@@ -35,3 +35,9 @@ a{
 #wrap{
     min-width: 1240px
 }
+/* 안전사이즈 */
+.inner{
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
