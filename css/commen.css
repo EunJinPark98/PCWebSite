@@ -88,8 +88,10 @@ a{
     display: flex;
 }
 .util a{
-    margin-left: 14px;
+    margin-left: 25px;
     color: #231F20;
+    font-size: 13px;
+    padding: 20px 10px;
 }
 .login a{
     padding-right: 15px;
@@ -98,12 +100,18 @@ a{
     background-position: right 0 center;
     
 }
-.cart .a{
-    display: block;
-    width: 22px;
-    height: 23px;
+.cart a{
+    position: relative;
+    padding-right: 25px;
     background-image: url(/img/main/icon_cart.png);
     background-repeat: no-repeat;
+    background-position: right 0 center;
 }
-
+.cart .count{
+    position: absolute;
+    right: 7px;
+    top: 24px;
+    font-size: 10px;
+    color: #fff;
+}
 
