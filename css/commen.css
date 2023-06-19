@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* common.css 헤더, 푸터 스타일*/
+/* 기본셋팅, 공통영역 */
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #121212;
+}
+img, input, button{
+    vertical-align: top;
+}
+input, button{
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* 안보이게 만들기 */
+.hide{
+    position: fixed;
+    top: -99999px;
+    left: -99999px;
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+/* clearFix */
+.cf::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#wrap{
+    min-width: 1240px
+}
+/* 안전사이즈 */
+.inner{
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 헤더 영역 */
+.popup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    font-size: 12px;
+    background-color: #000;
+    color: #fff;
+}
+.header1{
+    padding-top: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    display: block;
+    width: 222px;
+    height: 29px;
+    background-image: url(/img/main/logo.png);
+    text-indent: -99999px;
+}
+.search{
+    position: relative;
+}
+.search div input{
+    width: 460px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #36433B;
+}
+.search div button{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    border: 0;
+    background-color: transparent;
+    background-image: url(/img/main/icon_search.png);
+    background-repeat: no-repeat;
+    text-indent: -999999px;
+}
+.util{
+    display: flex;
+}
+.util a{
+    margin-left: 14px;
+    color: #231F20;
+}
+.login a{
+    padding-right: 15px;
+    background-image: url(/img/main/icon_drop.png);
+    background-repeat: no-repeat;
+    background-position: right 0 center;
+    
+}
+.cart .a{
+    display: block;
+    width: 22px;
+    height: 23px;
+    background-image: url(/img/main/icon_cart.png);
+    background-repeat: no-repeat;
+   
+}
+
+
