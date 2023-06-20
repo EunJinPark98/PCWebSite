@@ -140,10 +140,11 @@ a{
     text-indent: -99999px;
     background-position: center;
 }
-
 .lettering{
     width: 319px;
     height: 50px;
     background-image: url(/img/main/lettering.png);
     text-indent: -99999px;
 }
+/* 푸터 영역 */
+
