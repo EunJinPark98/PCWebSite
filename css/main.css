@@ -292,6 +292,7 @@
 /* 메인 9 */
 .main9{
     padding: 210px 0;
+    margin-bottom: 128px;
     background-color: #F8F8F8;
 }
 .main9 .inner{
@@ -336,4 +337,29 @@
     font-size: 18px;
     font-weight: 300;
     text-decoration: underline;
+}
+/* 메인 10 */
+.main10{
+    margin-bottom: 50px;
+}
+.main10 ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main10 .center{
+    margin-left: 156px;
+    margin-right: 156px;
+}
+.main10 h3{
+    margin-top: 39px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #000;
+    text-align: center;
+}
+.main10 h6{
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
 }
