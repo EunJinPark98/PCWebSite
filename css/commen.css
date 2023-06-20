@@ -147,4 +147,25 @@ a{
     text-indent: -99999px;
 }
 /* 푸터 영역 */
-
+#footer{
+    border-top: 1px solid #999;
+    height: 500px;
+    display: flex;
+    padding: 80px 77px;
+}
+.f_L_1{
+    display: flex;
+    margin-bottom: 26px;
+}
+#footer .logo a{
+    width: 130px;
+    height: 17px;
+    background-size: 100% auto;
+    margin-right: 14px;
+}
+.f_L_1 p{
+    font-size: 13px;
+}
+.f_L_2 ul{
+    display: flex;
+}
