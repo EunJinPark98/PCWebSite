@@ -51,6 +51,57 @@
 /* 메인 4 */
 .main4 ul{
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-
+}
+.main4 li{
+    position: relative;
+    height: 608px;
+}
+.main4 li:first-child{
+    width: 240px;
+}
+.rank{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #666;
+    color: #fff;
+}
+.main4 .number{
+    font-size: 12px;
+    color: #999;
+}
+.main4 .itemName{
+    font-size: 14px;
+    color: #111;
+}
+.originPrice{
+    font-size: 12px;
+    color: #979797;
+    text-decoration: line-through;
+}
+.main4 .price{
+    margin-bottom: 7px;
+}
+.DCPrice{
+    font-size: 15px;
+    color: #111;
+    margin-right: 6px;
+}
+.main4 .DCTag{
+    float: left;
+    margin-bottom: 12px;
+}
+/* 여기 */
+.main4 a .hashTag.active{
+    font-size: 13px;
+    color: #999;
+    border-top: 1px solid #999;
 }
