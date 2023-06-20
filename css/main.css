@@ -49,6 +49,9 @@
     float: right;
 }
 /* 메인 4 */
+.main4{
+    margin-bottom: 100px;
+}
 .main4 ul{
     display: flex;
     justify-content: space-between;
@@ -104,4 +107,8 @@
     font-size: 13px;
     color: #999;
     border-top: 1px solid #999;
+}
+/* 메인 5 */
+.main5{
+    margin-bottom: 140px;
 }
