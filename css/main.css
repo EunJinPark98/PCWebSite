@@ -24,7 +24,7 @@
 .title{
     font-size: 50px;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .m3_left{
     display: inline-block;
@@ -100,15 +100,26 @@
 }
 .main4 .DCTag{
     float: left;
-    margin-bottom: 12px;
 }
-/* 여기 */
 .main4 a .hashTag.active{
+    margin-top: 12px;
+    padding-top: 5px;
     font-size: 13px;
     color: #999;
-    border-top: 1px solid #999;
+    border-top: 1px solid #E5E5E5;
 }
 /* 메인 5 */
 .main5{
     margin-bottom: 140px;
+}
+.showWomen{
+    background-color: #F8F8F8;
+}
+.showWomen::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.showImg{
+    float: left;
 }
