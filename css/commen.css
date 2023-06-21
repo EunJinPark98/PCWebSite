@@ -83,6 +83,7 @@ a{
     background-image: url(/img/main/icon_search.png);
     background-repeat: no-repeat;
     text-indent: -999999px;
+    cursor: pointer;
 }
 .util{
     display: flex;
@@ -283,7 +284,6 @@ a{
     font-weight: 300;
     margin-top: 20px;
 }
-/* 안되는곳 */
 .f_right li.gotoCenter a .right{
     margin-left: 5px;
     font-size: 1px;
