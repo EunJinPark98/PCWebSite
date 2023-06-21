@@ -149,7 +149,7 @@ a{
 /* 푸터 영역 */
 #footer{
     border-top: 1px solid #999;
-    height: 500px;
+    height: 350px;
     display: flex;
     padding: 80px 77px;
 }
@@ -166,6 +166,65 @@ a{
 .f_L_1 p{
     font-size: 13px;
 }
+.f_L_2{
+    margin-bottom: 26px;
+}
 .f_L_2 ul{
     display: flex;
+}
+.f_L_2 li a{
+    font-size: 12px;
+    color: #999;
+}
+.bar{
+    font-size: 9px;
+    margin-left: 11px;
+    margin-right: 11px;
+    color: #A5A5A5;
+}
+.bold{
+    font-weight: 600;
+}
+.f_L_3{
+    margin-bottom: 26px;
+}
+.f_L_3 ul{
+    display: flex;
+}
+.f_L_3 li{
+    font-size: 12px;
+    color: #999;
+    line-height: 22px;
+}
+.f_L_3 li a{
+    font-size: 12px;
+    color: #999;
+}
+.f_L_4{
+    margin-bottom: 26px;
+}
+.f_L_4 ul{
+    display: flex;
+}
+.f_L_4 li{
+    font-size: 12px;
+    color: #999;
+    line-height: 22px;
+}
+.f_L_4 p{
+    font-size: 12px;
+    color: #999;
+}
+.underline{
+    text-decoration: underline;
+}
+.f_L_5{
+    display: flex;
+    font-size: 12px;
+    color: #999;
+}
+.joinCheck a{
+    font-size: 12px;
+    color: #999;
+    margin-left: 15px;
 }
