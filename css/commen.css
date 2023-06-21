@@ -238,6 +238,9 @@ a{
 .f_right .f_R_1{
     display: flex;
 }
+.f_R_1 {
+    margin-bottom: 50px;
+}
 .f_R_1 ul{
     margin-left: 53px;
 }
@@ -280,8 +283,10 @@ a{
     font-weight: 300;
     margin-top: 20px;
 }
-.f_right li.gotoCenter a span{
-/* 크기 작게 만들고 싶어요 */
+/* 안되는곳 */
+.f_right li.gotoCenter a .right{
+    margin-left: 5px;
+    font-size: 1px;
 }
 .bankInfo{
     min-width: 225px;
@@ -292,3 +297,65 @@ a{
 .shopMenu{
     min-width: 91px;
 }
+.f_R_2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.f_R_2 div{
+    margin-left: 53px;
+}
+.f_R_2 div h6{
+    font-size: 14px;
+    font-weight: 700;
+    color: #111;
+}
+.f_R_2 .welTab{
+    min-width: 95px;
+}
+.welTab h6{
+    margin-bottom: 8px;
+}
+.f_R_2 .lanTab{
+    min-width: 198px;
+}
+.f_R_2 .snsTab{
+    min-width: 88px;
+}
+.lanTab h6{
+    margin-bottom: 8px;
+}
+.f_R_2 .language{
+    display: flex;
+    justify-content: space-between;
+}
+.f_R_2 .language li{
+    margin-right: 12px;
+}
+.snsTab h6{
+    margin-bottom: 8px;
+}
+.f_R_2 .sns{
+    display: flex;
+    justify-content: space-between;
+}
+.f_R_2 .sns li{
+    margin-right: 12px;
+}
+.f_R_3{
+    position: relative;
+    width: 520px;
+    margin-left: 53px;
+    font-size: 12px;
+    color: #999;
+}
+.f_R_3 p{
+    position: absolute;
+    right: 0;
+}
+.f_R_3 img{
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+
