@@ -108,3 +108,30 @@
     color: #999;
     border-top: 1px solid #E5E5E5;
 }
+/* 메인4 */
+.main4{
+    margin-bottom: 200px;
+}
+.page{
+    display: flex;
+    margin-left: 50%;
+}
+.page li a{
+    margin-right: 30px;
+    font-size: 15;
+    font-weight: 300;
+    color: #111;
+}
+.page li.active a{
+    font-weight: 600;
+    text-decoration: underline;
+}
+.nextPage a{
+    display: block;
+    width: 13px;
+    height: 12px;
+    margin-top: 5px;
+    background-image: url(/img/sub_bestItem/icon_nextPage.png);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
