@@ -1,6 +1,9 @@
 @charset "utf-8";
 /* main.css 인덱스 본문 스타일*/
 /* 메인 1 */
+#container{
+    border-bottom: 1px solid #999;
+}
 .main1{
     height: 740px;
     margin-top: 15px;
