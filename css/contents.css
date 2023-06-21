@@ -4,3 +4,11 @@
 #container{
     border-bottom: 1px solid #999;
 }
+.main1{
+    height: 945px;
+    margin-top: 15px;
+    margin-bottom: 41px;
+    background-image: url(/img/sub_bestItem/banner.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
