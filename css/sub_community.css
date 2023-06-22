@@ -6,19 +6,75 @@
 #container{
     border-bottom: 1px solid #999;
 }
-/* 메인1 영역 */
-.main1 ul{
+/* 메인탑 영역 */
+.mainTop{
+    margin-bottom: 20px;
+}
+.mainTop ul{
     display: flex;
     margin: 10px 50px;
 }
-.main1 li{
+.mainTop li{
     font-size: 11px;
     color: #666;
     padding-right: 30px;
 }
-.main1 li.homeBar{
+.mainTop li.homeBar{
     font-size: 9px;
+    margin-top: 1px;
     background-image: url(../img/sub_community/icon_right.png);
     background-repeat: no-repeat;
     background-position: 42px 5px;
+}
+/* 메뉴 영역 */
+.main .inner{
+    display: flex;
+    justify-content: space-between;
+}
+.main_left{
+    padding-top: 46px;
+    padding-right: 76px;
+    border-right: 1px solid #E0E0E0;
+}
+.main_left h1{
+    font-size: 33px;
+    color: #242424;
+}
+.main_left h2{
+    font-size: 14px;
+    color: #999;
+}
+.main_left .bar{
+    width: 30px;
+    border-bottom: 2px solid #333;
+    margin: 30px 0;
+}
+.main_left .cate li{
+    margin-bottom: 30px;
+}
+.main_left .cate li a{
+    font-size: 15px;
+    color: #333;
+}
+.kakao{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.center{
+    border: 1px solid #E8E8E8;
+    padding: 20px 25px;
+}
+.center h3{
+    font-size: 15px;
+    color: #454545;
+}
+.center .num{
+    font-size: 17px;
+    font-weight: 600;
+    color: #D95756;
+}
+.center .time{
+    font-size: 12px;
+    font-weight: 300;
+    color: #555;
 }
