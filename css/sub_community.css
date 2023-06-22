@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* sub_community.css 서브메뉴 스타일 */
+#header{
+    border-bottom: 1px solid #999;
+}
+#container{
+    border-bottom: 1px solid #999;
+}
+/* 메인1 영역 */
+.main1 ul{
+    display: flex;
+}
