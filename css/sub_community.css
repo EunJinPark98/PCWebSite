@@ -190,6 +190,7 @@
     position: relative;
     float: left;
     margin-bottom: 200px;
+    margin-right: 70px;
 }
 .notice .title{
     width: 385px;
@@ -218,4 +219,19 @@
     font-size: 12px;
     color: #666;
     margin-left: 13px;
+}
+/* 이벤트 */
+.event{
+    position: relative;
+    float: right;
+    width: 385px;
+}
+.event .title{
+    width: 385px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #EBEBEB;
+}
+.event ul{
+    display: flex;
+    justify-content: space-between;
 }
