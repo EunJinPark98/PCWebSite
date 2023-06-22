@@ -148,6 +148,9 @@
     cursor: pointer;
 }
 /* 자주 찾는 질문 */
+.qnaTop5{
+    margin-bottom: 110px;
+}
 .qnaTop5 ul{
     border-top: 1px solid #BEBEBE;
     border-bottom: 1px solid #BEBEBE;
@@ -181,4 +184,38 @@
 .qnaTop5 .text{
     font-size: 14px;
     color: #555;
+}
+/* 공지사항 */
+.notice{
+    position: relative;
+    float: left;
+    margin-bottom: 200px;
+}
+.notice .title{
+    width: 385px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #EBEBEB;
+}
+.more a{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 12px;
+    color: #888;
+    display: block;
+    width: 47px;
+    background-image: url(../img/sub_community/icon_right.png);
+    background-repeat: no-repeat;
+    background-position: 40px 5px;
+}
+.notice li{
+    background-image: url(../img/sub_community/dot.png);
+    background-repeat: no-repeat;
+    background-position: 0 10px;
+    margin-bottom: 10px;
+}
+.notice li a{
+    font-size: 12px;
+    color: #666;
+    margin-left: 13px;
 }
