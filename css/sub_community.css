@@ -29,7 +29,6 @@
 /* 메뉴 영역 */
 .main .inner{
     display: flex;
-    justify-content: space-between;
 }
 .main_left{
     padding-top: 46px;
@@ -77,4 +76,32 @@
     font-size: 12px;
     font-weight: 300;
     color: #555;
+}
+/* 메인1 영역 */
+.main_right{
+    width: 1042px;
+}
+.mr_inner{
+    width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main1{
+    padding: 20px 51px;
+    background-color: #F9F9F9;
+}
+.title{
+    font-size: 20px;
+    color: #242424;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.quickMenu{
+    display: flex;
+    justify-content: space-between;
+}
+.quickMenu p{
+    font-size: 15px;
+    color: #333;
+    text-align: center;
 }
