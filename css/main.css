@@ -4,14 +4,12 @@
 #container{
     border-bottom: 1px solid #999;
 }
-.main1{
-    height: 740px;
-    margin-top: 15px;
-    margin-bottom: 41px;
-    background-image: url(/img/main/banner.png);
-    background-repeat: no-repeat;
-    background-position: 50%;
+.main1 .inner{
+  display: flex;
+  justify-content: center;
 }
+/* 이미지 슬라이드 */
+
 /* 메인 2 */
 .main2{
     margin-bottom: 120px;
@@ -19,6 +17,26 @@
 .main2 ul{
     display: flex;
     justify-content: space-between;
+}
+.imgText{
+    width: 650px;
+    height: 440px;
+    position: absolute;
+    top: 300px;
+    left: 0;
+    vertical-align: top;
+    text-align: center;
+    color: #fff;   
+}
+.imgText .cate{
+    font-size: 20px;
+}
+.imgText .imgInfo{
+    font-size: 28px;
+    font-weight: 700;
+}
+.imgText .imgName{
+    font-size: 18px;
 }
 /* 메인 3 */
 .main3{
