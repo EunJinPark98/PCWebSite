@@ -41,6 +41,9 @@ a{
     margin-left: auto;
     margin-right: auto;
 }
+#header{
+    position: relative;
+}
 /* 헤더1 영역 */
 .popup{
     display: flex;
@@ -115,7 +118,7 @@ a{
     font-size: 10px;
     color: #fff;
 }
-/* 헤더2 영역 */
+/* 헤더2 gnb 영역 */
 .header2{
     padding-top: 41px;
 }
@@ -125,13 +128,21 @@ a{
 }
 .gnb ul{
     display: flex;
+    padding-right: 250px;
 }
 .gnb li a{
     margin-right: 30px;
     font-size: 18px;
     color: #231F20;
 }
-.gnb ul li:first-child a{
+.lettering{
+    width: 319px;
+    height: 50px;
+    background-image: url(/img/main/lettering.png);
+    text-indent: -99999px;
+}
+/* 전체메뉴 보기 */
+.allMenuBtn a{
     display: block;
     width: 23px;
     height: 14px;
@@ -141,11 +152,69 @@ a{
     text-indent: -99999px;
     background-position: center;
 }
-.lettering{
-    width: 319px;
-    height: 50px;
-    background-image: url(/img/main/lettering.png);
-    text-indent: -99999px;
+.allMenu_bg{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 192px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #999;
+    background-color: #fff;    
+}
+.allMenu_in{
+    position: relative;
+    width: 1180px;
+    height: 500px;
+    margin: 0 auto;
+}
+.allMenu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1180px;
+}
+.allMenu .top{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+.allMenu .top ul{
+    display: flex;
+}
+.allMenu .top li a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    margin-left: 40px;
+}
+.allMenu .left{
+    float: left;
+    display: flex;
+    margin-top: 50px;
+}
+.allMenu .left div{
+    margin-right: 55px;
+}
+.allMenu .left h6{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.allMenu .left li a{
+    color: gray;
+    line-height: 30px;
+}
+.allMenu .right{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    float: right;
+    display: flex;
+}
+.allMenu .right p{
+    margin-left: 10px;
 }
 /* 푸터 왼쪽 영역 */
 #footer{
