@@ -137,6 +137,12 @@
 .main6{
     margin-bottom: 100px;
 }
+.main6 .active{
+    display: block;
+}
+.showList{
+    display: none;
+}
 .showWomen{
     display: flex;
     background-color: #F8F8F8;
