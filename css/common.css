@@ -88,6 +88,7 @@ a{
     text-indent: -999999px;
     cursor: pointer;
 }
+/* 유틸리티 영역 */
 .util{
     display: flex;
 }
@@ -97,12 +98,36 @@ a{
     font-size: 13px;
     padding: 20px 10px;
 }
-.login a{
+.login{
+    position: relative;
+}
+.login > a{
     padding-right: 15px;
     background-image: url(/img/main/icon_drop.png);
     background-repeat: no-repeat;
     background-position: right 0 center;
-    
+}
+.login_sub{
+    display: none;
+    position: absolute;
+    top: 28px;
+    left: 20px;
+    width: 100px;
+    padding-top: 18px;
+    padding-bottom: 11px;
+    background-color: #fff;
+    border: 1px solid #A5A5A5;
+    z-index: 100;
+}
+.util .login_sub li{
+    text-align: center;
+    margin-bottom: 7px;
+}
+.util .login_sub li a{
+    margin-left: 0;
+}
+.util .login_sub li a:hover{
+    text-decoration: underline;
 }
 .cart a{
     position: relative;
@@ -161,12 +186,13 @@ a{
     display: none;
     position: absolute;
     top: 27px;
-    padding-top: 20px;
+    padding-top: 30px;
     background-color: #fff;
     width: 130px;
 }
 .gnb .d1 div li a{
     margin-bottom: 12px;
+    font-size: 16px;
 }
 .gnb .d1 div li a:hover{
     text-decoration: underline;

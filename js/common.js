@@ -12,9 +12,16 @@ $('.allMenuBtn').mouseover(function(){
     $('.allMenu_bg').hide();
 });
 
-// 서브메뉴 보기
+// gnb 서브메뉴 보기
 $('.d1').mouseover(function(){
     $(this).find('div').show();
 }).mouseout(function(){
     $(this).find('div').hide();
+});
+
+// 로그인 서브메뉴 보기
+$('.login').mouseover(function(){
+    $(this).find('.login_sub').show();
+}).mouseout(function(){
+    $(this).find('.login_sub').hide();
 });
