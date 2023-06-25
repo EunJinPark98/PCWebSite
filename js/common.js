@@ -9,11 +9,12 @@ $('.allMenuBtn').mouseover(function(){
     }).mouseout(function(){
         $(this).hide();
     });
+    $('.allMenu_bg').hide();
 });
 
 // 서브메뉴 보기
 $('.d1').mouseover(function(){
-    $(this).find('.sub').show();
+    $(this).find('div').show();
 }).mouseout(function(){
-    $(this).find('.sub').hide();
+    $(this).find('div').hide();
 });

@@ -120,32 +120,35 @@ a{
 }
 /* 헤더2 gnb 영역 */
 .header2{
+    position: relative;
     padding-top: 41px;
 }
 .header2 .inner{
     display: flex;
-    justify-content: space-between;
+
 }
 .allMenuBtn a{
     display: block;
     width: 23px;
     height: 14px;
-    padding-top: 16px;
+    padding-top: 14px;
     background-image: url(/img/main/icon_menu.png);
     background-repeat: no-repeat;
     text-indent: -99999px;
     background-position: center;
 }
 .gnb{
-    padding-right: 100px;
     position: relative;
+    padding-bottom: 23px;
 }
 .gnb > ul{
     display: flex;
 }
+.gnb .d1{
+    margin-left: 60px;
+}
 .gnb li a{
     display: block;
-    width: 130px;
     font-size: 18px;
     color: #231F20;
     text-align: center;
@@ -154,21 +157,42 @@ a{
     color: burlywood;
 }
 /* 서브메뉴 */
-.gnb .sub{
+.gnb .d1 div{
     display: none;
     position: absolute;
     top: 27px;
     padding-top: 20px;
     background-color: #fff;
+    width: 130px;
 }
-.gnb .sub li a{
-    text-align: center;
+.gnb .d1 div li a{
     margin-bottom: 12px;
 }
-.gnb .sub li a:hover{
+.gnb .d1 div li a:hover{
     text-decoration: underline;
 }
+.gnb .sub1{
+    margin-left: -45px;
+}
+.gnb .sub2{
+    margin-left: -28px;
+}
+.gnb .sub3{
+    margin-left: -43px;
+}
+.gnb .sub4{
+    margin-left: -45px;
+}
+.gnb .sub5{
+    margin-left: -10px;
+}
+.gnb .sub6{
+    margin-left: -18px
+}
+/* 레터링 */
 .lettering{
+    position: absolute;
+    right: 0;
     width: 319px;
     height: 50px;
     background-image: url(/img/main/lettering.png);
