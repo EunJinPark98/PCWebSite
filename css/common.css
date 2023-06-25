@@ -126,21 +126,6 @@ a{
     display: flex;
     justify-content: space-between;
 }
-.gnb ul{
-    display: flex;
-    padding-right: 250px;
-}
-.gnb li a{
-    margin-right: 30px;
-    font-size: 18px;
-    color: #231F20;
-}
-.lettering{
-    width: 319px;
-    height: 50px;
-    background-image: url(/img/main/lettering.png);
-    text-indent: -99999px;
-}
 .allMenuBtn a{
     display: block;
     width: 23px;
@@ -151,13 +136,51 @@ a{
     text-indent: -99999px;
     background-position: center;
 }
+.gnb{
+    padding-right: 100px;
+    position: relative;
+}
+.gnb > ul{
+    display: flex;
+}
+.gnb li a{
+    display: block;
+    width: 130px;
+    font-size: 18px;
+    color: #231F20;
+    text-align: center;
+}
+.gnb li a:hover{
+    color: burlywood;
+}
+/* 서브메뉴 */
+.gnb .sub{
+    display: none;
+    position: absolute;
+    top: 27px;
+    padding-top: 20px;
+    background-color: #fff;
+}
+.gnb .sub li a{
+    text-align: center;
+    margin-bottom: 12px;
+}
+.gnb .sub li a:hover{
+    text-decoration: underline;
+}
+.lettering{
+    width: 319px;
+    height: 50px;
+    background-image: url(/img/main/lettering.png);
+    text-indent: -99999px;
+}
 /* 전체메뉴 보기 */
 .allMenu_bg{
     display: none;
     position: absolute;
     top: 193px;
     width: 100%;
-    height: 500px;
+    height: 460px;
     border-top: 1px solid #d3d3d3;
     background-color: #fff;    
 }
