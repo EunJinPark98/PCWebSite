@@ -37,3 +37,5 @@ $('.goBottom').click(function(){
         scrollTop : $(document).height()
     });
 });
+
+

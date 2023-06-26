@@ -7,6 +7,7 @@
 .main1{
     position: relative;
     overflow: hidden;
+    margin-bottom: 80px;
     background-color: #000;
 }
 .m1_inner{
@@ -31,8 +32,6 @@
     opacity: 0.7;
 }
 /* 메인 1 버튼 */
-.m1_btn{
-}
 .m1_prev, .m1_next{
     position: absolute;
     top: 350px;
@@ -68,10 +67,21 @@
     bottom: 100px;
     width: 19px;
     height: 30px;
-    border-left: 2px solid #fff;
-    border-right: 2px solid #fff;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
 }
-
+.ms_pager{
+    position: absolute;
+    right: 160px;
+    bottom: 100px;
+    color: #fff;
+}
+.m1_btn>.ms_pager li{
+    display: none;
+}
+.m1_btn>.ms_pager .slick-active{
+    display: block;
+}
 /* 메인 2 */
 .main2{
     margin-bottom: 120px;
