@@ -190,6 +190,7 @@ a{
     padding-top: 30px;
     background-color: #fff;
     width: 130px;
+    
 }
 .gnb .d1 div li a{
     margin-bottom: 12px;
@@ -233,6 +234,7 @@ a{
     width: 100%;
     height: 460px;
     border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
     background-color: #fff;    
 }
 .allMenu{
