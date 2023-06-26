@@ -43,6 +43,7 @@ a{
 }
 #header{
     position: relative;
+    z-index: 1000;
 }
 /* 헤더1 영역 */
 .popup{
