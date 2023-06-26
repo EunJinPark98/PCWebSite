@@ -33,18 +33,26 @@
 /* 메인 1 버튼 */
 .m1_btn{
     position: absolute;
-    right: 84px;
-    bottom: 84px;
-    display: flex;
+    top: 0;
+}
+.m1_prev, .m1_next{
+    position: absolute;
+    top: 350px;
+    width: 40px;
+    height: 40px;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
 }
 .m1_prev{
-    border-top: 1px solid #000;
-    border-right: 1px solid #000;
-    background-color: blue;
-    position: absolute;
-    left: 0;
-    top: 50%;
+    left: 50%;
+    transform: rotate(-135deg);
 }
+/* 안됨! */
+.m1_next{
+    right: 50%;
+    transform: rotate(45deg);
+}
+
 /* 메인 2 */
 .main2{
     margin-bottom: 120px;
