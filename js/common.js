@@ -25,3 +25,15 @@ $('.login').mouseover(function(){
 }).mouseout(function(){
     $(this).find('.login_sub').hide();
 });
+
+// gotop버튼
+$('.goTop').click(function(){
+    $('html, body').stop().animate({
+        scrollTop : 0
+    });
+});
+$('.goBottom').click(function(){
+    $('html, body').stop().animate({
+        scrollTop : $(document).height()
+    });
+});

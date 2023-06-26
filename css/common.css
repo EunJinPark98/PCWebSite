@@ -489,5 +489,26 @@ a{
     margin-top: -10px;
     margin-right: 10px;
 }
+/* gotop버튼 */
+.goTop, .goBottom{
+    /* position: absolute; */
+    position: fixed;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    background-image: url(../img/main/rightBtn.png);
+    background-repeat: no-repeat;
+    background-size: 10px 15px;
+    background-position: center;
+}
+.goTop{
+    transform: rotate(-90deg);
+    top: 800px;
+}
+.goBottom{
+    top: 850px;
+    transform: rotate(90deg);
+}
 
 
