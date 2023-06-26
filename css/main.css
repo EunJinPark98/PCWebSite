@@ -52,21 +52,26 @@
     transform: rotate(45deg);
 }
 .m1_play{
+    display: none;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
     width: 0;
     height: 0;
-    border-left: 18px solid #fff;
-    border-top: 14px solid transparent;
-    border-bottom: 18px solid transparent;
+    border-left: 20px solid #fff;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
 }
 .m1_pause{
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 10px;
-    height: 28px;
-    border-left: 1px solid #fff;
-    border-right: 1px solid #fff;
+    right: 100px;
+    bottom: 100px;
+    width: 19px;
+    height: 30px;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
 }
+
 /* 메인 2 */
 .main2{
     margin-bottom: 120px;
