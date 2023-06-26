@@ -32,8 +32,6 @@
 }
 /* 메인 1 버튼 */
 .m1_btn{
-    position: absolute;
-    top: 0;
 }
 .m1_prev, .m1_next{
     position: absolute;
@@ -45,14 +43,30 @@
 }
 .m1_prev{
     left: 50%;
+    margin-left: -900px;
     transform: rotate(-135deg);
 }
-/* 안됨! */
 .m1_next{
     right: 50%;
+    margin-right: -900px;
     transform: rotate(45deg);
 }
-
+.m1_play{
+    width: 0;
+    height: 0;
+    border-left: 18px solid #fff;
+    border-top: 14px solid transparent;
+    border-bottom: 18px solid transparent;
+}
+.m1_pause{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 28px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
 /* 메인 2 */
 .main2{
     margin-bottom: 120px;
