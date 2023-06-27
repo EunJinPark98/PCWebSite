@@ -26,6 +26,6 @@ $('.selecCate').click(function(){
 $('.selecCate li:not(.on) a').click(function() {
     $('.selecCate li.on').removeClass('on');
     $(this).parent('li').addClass('on');
-  });
+});
   
 

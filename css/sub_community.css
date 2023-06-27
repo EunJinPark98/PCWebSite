@@ -182,6 +182,21 @@
     font-size: 14px;
     color: #555;
 }
+/* 자주 찾는 질문 답변 */
+.qnaTop5 .answer{
+    padding: 20px 20px;
+    display: flex;
+}
+.qnaTop5 .answer .A{
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #555;
+}
+.qnaTop5 .answer .ans{
+    margin-left: 7px;
+    color: #555;
+}
 /* 공지사항 */
 .notice{
     position: relative;
