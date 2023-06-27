@@ -1,6 +1,6 @@
 // sub.js
 
-// 카테고리 선택
+// 카테고리 열고 닫기
 $('.selecCate').click(function(){
     var $ul = $(this).find('ul');
     
@@ -22,3 +22,13 @@ $('.selecCate').click(function(){
     
     return false;
 });
+
+// 카테고리 선택 (실패)
+if($('.selectCate ul').height() === 190){
+
+    $('.selectCate li').click(function(){
+        $(this).sibilings('.on').removeClass();
+        $(this).addClass('.on');
+        return false;
+    });
+}
