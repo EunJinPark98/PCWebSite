@@ -76,10 +76,10 @@
     bottom: 100px;
     color: #fff;
 }
-.m1_btn>.ms_pager li{
+.ms_pager li{
     display: none;
 }
-.m1_btn>.ms_pager .slick-active{
+.ms_pager .slick-active{
     display: block;
 }
 /* 메인 2 */
