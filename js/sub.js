@@ -19,16 +19,13 @@ $('.selecCate').click(function(){
             display: 'block'
         });
     }
-    
     return false;
 });
 
-// 카테고리 선택 안됨
-
-$('.selectCate li').click(function(){
-    $(this).sibilings('.on').removeClass();
-    $(this).addClass('.on');
-    return false;
-});
-
+// 카테고리 선택
+$('.selecCate li:not(.on) a').click(function() {
+    $('.selecCate li.on').removeClass('on');
+    $(this).parent('li').addClass('on');
+  });
+  
 

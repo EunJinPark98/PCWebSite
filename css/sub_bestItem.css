@@ -50,13 +50,15 @@
     line-height: 32px;
     z-index: 100;
     background-color: #fff;
-
 }
 .main2 .selecCate li a{
     color: #666;
     font-size: 15px;
     display: none;
     margin-left: 10px;
+}
+.main2 .selecCate li:not(:first-child) a:hover{
+    text-decoration: underline;
 }
 .main2 .selecCate li.on a{
     display: block;
