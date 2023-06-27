@@ -16,13 +16,21 @@ $('.slideList').slick({
   centerMode : true
 })
 
-// 슬라이드 재생버튼
+// 메인1 슬라이드 텍스트
+$('.slideText .on').fadeIn(1000);
+
+$('.slideList').on('afterChange', function(event, slick, currentSlide) {
+  $('.slideText .on').removeClass('on').hide();
+  $('.slideText div').eq(currentSlide).addClass('on').fadeIn(1000);
+});
+
+// 메인1 슬라이드 재생버튼
 $('.m1_play').click(function(){
   $('.slideList').slick('slickPlay');
   $(this).hide();
   $('.m1_pause').show();
 });
-// 슬라이드 멈춤버튼
+// 메인1 슬라이드 멈춤버튼
 $('.m1_pause').click(function(){
   $('.slideList').slick('slickPause');
   $(this).hide();
