@@ -23,12 +23,12 @@ $('.selecCate').click(function(){
     return false;
 });
 
-// 카테고리 선택 (실패)
-if($('.selectCate ul').height() === 190){
+// 카테고리 선택 안됨
 
-    $('.selectCate li').click(function(){
-        $(this).sibilings('.on').removeClass();
-        $(this).addClass('.on');
-        return false;
-    });
-}
+$('.selectCate li').click(function(){
+    $(this).sibilings('.on').removeClass();
+    $(this).addClass('.on');
+    return false;
+});
+
+
