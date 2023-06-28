@@ -4,14 +4,105 @@
 #container{
     border-bottom: 1px solid #999;
 }
-/* 메인1 */
+/* 메인1 슬라이드*/
 .main1{
-    height: 945px;
-    margin-top: 15px;
-    margin-bottom: 41px;
-    background-image: url(/img/sub_bestItem/banner.png);
-    background-repeat: no-repeat;
-    background-position: 50%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 80px;
+    background-color: #000;
+}
+.m1_inner{
+    position: relative;
+    width: 1993px;
+    height: 740px;
+    margin: 0 auto;
+}
+.slideList .slick-list{
+    overflow: visible;
+}
+.slide_img a{
+    display: block;
+    width: 632px;
+    height: 740px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slide_img a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+/* 메인 1 슬라이드 텍스트 */
+.slideText .on{
+    width: 500px;
+    position: absolute;
+    top: 560px;
+    left: 50%;
+    margin-left: -250px;
+    color: #fff;
+}
+.slideText > div{
+    display: none;
+}
+.slideText .text{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.slideText .item{
+    font-size: 15px;
+}
+/* 메인 1 버튼 */
+.m1_prev, .m1_next{
+    position: absolute;
+    top: 350px;
+    width: 40px;
+    height: 40px;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+.m1_prev{
+    left: 50%;
+    margin-left: -900px;
+    transform: rotate(-135deg);
+}
+.m1_next{
+    right: 50%;
+    margin-right: -900px;
+    transform: rotate(45deg);
+}
+.m1_play{
+    display: none;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #fff;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+.m1_pause{
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    width: 19px;
+    height: 30px;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+.ms_pager{
+    position: absolute;
+    right: 160px;
+    bottom: 100px;
+    color: #fff;
+}
+.ms_pager li{
+    display: none;
+}
+.ms_pager .slick-active{
+    display: block;
 }
 /* 메인2 */
 .main2 h1{
