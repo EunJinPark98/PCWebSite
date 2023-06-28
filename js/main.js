@@ -13,7 +13,8 @@ $('.slideList').slick({
   atoplaySpeed : 500,
   speed : 1000,
   slidesToShow : 3,
-  centerMode : true
+  centerMode : true,
+  variableWidth: true
 })
 
 // 메인1 슬라이드 텍스트
