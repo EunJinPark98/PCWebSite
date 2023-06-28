@@ -27,5 +27,20 @@ $('.selecCate li:not(.on) a').click(function() {
     $('.selecCate li.on').removeClass('on');
     $(this).parent('li').addClass('on');
 });
+
+// 자주 찾는 질문 클릭
+$('.qnaTop5 li').click(function(){
+
+    $(this).find('.ansFrame').slideToggle();
+
+    // 답변 열렸을 때 이중 선 없애기
+    let i = $(this).find('.ansFrame').css('display');
+    if(i == 'block'){
+        $(this).css({
+            borderBottom : 'none'
+        });
+    };
+    return false;
+});
   
 

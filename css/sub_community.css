@@ -152,11 +152,14 @@
     border-top: 1px solid #BEBEBE;
     border-bottom: 1px solid #BEBEBE;
 }
+.qnaTop5 li{
+    /* 이거 메뉴 누르면 없어져야함!!!! */
+    border-bottom: 1px solid #eee;
+}
 .qnaTop5 li a{
     position: relative;
     display: flex;
     padding: 15px 15px;
-    border-bottom: 1px solid #eee;
 }
 .qnaTop5 li a::after{
     content: "";
@@ -183,9 +186,19 @@
     color: #555;
 }
 /* 자주 찾는 질문 답변 */
-.qnaTop5 .answer{
+.ansFrame{
+    display: none;
+}
+.answer{
     padding: 20px 20px;
     display: flex;
+    border-bottom: 1px solid #BEBEBE;
+}
+.qnaTop5 ul:last-child{
+    border-bottom: none;
+}
+.qnaTop5 .answer{
+    border-top: 1px solid #eee;
 }
 .qnaTop5 .answer .A{
     margin-right: 20px;
