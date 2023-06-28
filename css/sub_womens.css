@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* sub_bestItem.css 서브메뉴 스타일 */
+/*  */
+#container{
+    border-bottom: 1px solid #999;
+}
+/* 메인1 */
+.main1{
+    height: 945px;
+    margin-top: 15px;
+    margin-bottom: 41px;
+    background-image: url(/img/sub_bestItem/banner.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+/* 메인2 */
+.main2 h1{
+    font-size: 26px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.main2 > .inner > ul{
+    display: flex;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+.main2 > .inner > ul > li a{
+    margin-right: 50px;
+    font-size: 15px;
+    color: #666;
+}
+.main2 .selecCate{
+    position: relative;
+    height: 16px;
+    border-top: 1px solid #BABABA;
+    border-bottom: 1px solid #BABABA;
+    padding: 12px 30px;
+    margin-bottom: 20px;
+}
+.main2 .selecCate ul{
+    position: absolute;
+    top: 0;
+    left: 25px;
+    width: 100px;
+    height: 20px;
+    padding: 5px 0px;
+    line-height: 32px;
+    z-index: 100;
+    background-color: #fff;
+}
+.main2 .selecCate li a{
+    color: #666;
+    font-size: 15px;
+    display: none;
+    margin-left: 10px;
+}
+.main2 .selecCate li:not(:first-child) a:hover{
+    text-decoration: underline;
+}
+.main2 .selecCate li.on a{
+    display: block;
+    width: 100px;
+    font-size: 15px;
+    color: #666;
+    background-image: url(/img/sub_bestItem/icon_down.png);
+    background-repeat: no-repeat;
+    background-size: 13px 7px;
+    background-position: 65px 13px;
+}  
+
+/* 메인3 */
+.main3{
+    margin-bottom: 100px;
+}
+.main3 ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main3 li{
+    position: relative;
+    height: 608px;
+}
+.main3 li:nth-child(10n+1){
+    width: 240px;
+}
+.rank{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #666;
+    color: #fff;
+}
+.main3 .number{
+    font-size: 12px;
+    color: #999;
+}
+.main3 .itemName{
+    font-size: 14px;
+    color: #111;
+}
+.originPrice{
+    font-size: 12px;
+    color: #979797;
+    text-decoration: line-through;
+}
+.main3 .price{
+    margin-bottom: 7px;
+}
+.DCPrice{
+    font-size: 15px;
+    color: #111;
+    margin-right: 6px;
+}
+.main3 .DCTag{
+    float: left;
+}
+.main3 a .hashTag.active{
+    margin-top: 12px;
+    padding-top: 5px;
+    font-size: 13px;
+    color: #999;
+    border-top: 1px solid #E5E5E5;
+}
+/* 메인4 */
+.main4{
+    margin-bottom: 200px;
+}
+.page{
+    display: flex;
+    margin-left: 50%;
+}
+.page li a{
+    margin-right: 30px;
+    font-size: 15;
+    font-weight: 300;
+    color: #111;
+}
+.page li.active a{
+    font-weight: 600;
+    text-decoration: underline;
+}
+.nextPage a{
+    display: block;
+    width: 13px;
+    height: 12px;
+    margin-top: 5px;
+    background-image: url(/img/sub_bestItem/icon_nextPage.png);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
