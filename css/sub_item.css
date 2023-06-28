@@ -54,49 +54,23 @@
     font-size: 15px;
 }
 /* 메인 1 버튼 */
-.m1_prev, .m1_next{
-    position: absolute;
-    top: 350px;
-    width: 40px;
-    height: 40px;
-    border-top: 3px solid #fff;
-    border-right: 3px solid #fff;
-}
-.m1_prev{
-    left: 50%;
-    margin-left: -900px;
-    transform: rotate(-135deg);
-}
-.m1_next{
-    right: 50%;
-    margin-right: -900px;
-    transform: rotate(45deg);
-}
-.m1_play{
-    display: none;
-    position: absolute;
-    right: 100px;
-    bottom: 100px;
-    width: 0;
-    height: 0;
-    border-left: 20px solid #fff;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-}
-.m1_pause{
-    position: absolute;
-    right: 100px;
-    bottom: 100px;
-    width: 19px;
-    height: 30px;
-    border-left: 3px solid #fff;
-    border-right: 3px solid #fff;
+.slick-prev {
+    display: none !important;
 }
 .ms_pager{
     position: absolute;
-    right: 160px;
-    bottom: 100px;
-    color: #fff;
+    left: 50%;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 25px;
+    font-size: 12px;
+    border-radius: 20px;
+    color: #000;
+    background-color: #fff;
+    opacity: 0.5;
 }
 .ms_pager li{
     display: none;
