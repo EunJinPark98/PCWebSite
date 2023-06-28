@@ -178,19 +178,6 @@
 .main3 li:nth-child(10n+1){
     width: 240px;
 }
-.rank{
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 13px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #666;
-    color: #fff;
-}
 .main3 .number{
     font-size: 12px;
     color: #999;
