@@ -54,8 +54,23 @@
     font-size: 15px;
 }
 /* 메인 1 버튼 */
-.slick-prev {
-    display: none !important;
+.m1_prev, .m1_next{
+    position: absolute;
+    top: 350px;
+    width: 40px;
+    height: 40px;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+.m1_prev{
+    left: 50%;
+    margin-left: -900px;
+    transform: rotate(-135deg);
+}
+.m1_next{
+    right: 50%;
+    margin-right: -900px;
+    transform: rotate(45deg);
 }
 .ms_pager{
     position: absolute;
