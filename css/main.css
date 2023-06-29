@@ -57,22 +57,22 @@
 }
 .popupBtn .close span{
     display: flex;
-    margin-left: 5px;
+    margin-left: 7px;
     width: 10px;
     height: 10px;
 }
 .popupBtn .close span:before, .popupBtn .close span:after{
     content: "";
     display: block;
-    height: 10px;
+    height: 12px;
 }
 .popupBtn .close span:before{
-    border-left: 1px solid #999;
-    transform: rotate(-45deg);
+    border-left: 1px solid #555;
+    transform: rotate(-35deg);
 }
 .popupBtn .close span:after{
-    border-left: 1px solid #999;
-    transform: rotate(45deg);
+    border-left: 1px solid #555;
+    transform: rotate(35deg);
 }
 /* 메인 1 슬라이드*/
 .main1{
