@@ -2,6 +2,77 @@
 /* main.css 인덱스 본문 스타일*/
 #container{
     border-bottom: 1px solid #999;
+    position: relative;
+}
+/* 팝업창 */
+.popup{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 450px;
+    left: 60px;
+    width: 560px;
+    z-index: 1000;
+}
+.popup .photo a img{
+    display: block;
+    width: 560px;
+    height: auto;
+}
+.popup h1{
+    width: 560px;
+    background-color: #000;
+    line-height: 45px;
+    font-size: 16px;
+    text-align: center;
+}
+.popup h1 a{
+    color: #fff;
+}
+.popupBtn{
+    display: flex;
+    justify-content: space-between;
+    width: 560px;
+    height: 50px;
+    background-color: #fff;
+}
+.popupBtn .noLook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    font-size: 14px;
+    border-right: 1px solid#E5E5E5;
+    color: #000;
+    cursor: pointer;
+}
+.popupBtn .close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+}
+.popupBtn .close span{
+    display: flex;
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+}
+.popupBtn .close span:before, .popupBtn .close span:after{
+    content: "";
+    display: block;
+    height: 10px;
+}
+.popupBtn .close span:before{
+    border-left: 1px solid #999;
+    transform: rotate(-45deg);
+}
+.popupBtn .close span:after{
+    border-left: 1px solid #999;
+    transform: rotate(45deg);
 }
 /* 메인 1 슬라이드*/
 .main1{

@@ -1,5 +1,9 @@
 // main.js
-
+// 팝업광고끄기
+$('.popupBtn .close').click(function(){
+  $('.popup').hide();
+  return false;
+});
 // main1 이미지 슬라이드
 $('.slideList').slick({
   dots : true,
