@@ -151,17 +151,6 @@ a{
 }
 .header2 .inner{
     display: flex;
-
-}
-.allMenuBtn a{
-    display: block;
-    width: 23px;
-    height: 14px;
-    padding-top: 14px;
-    background-image: url(/img/main/icon_menu.png);
-    background-repeat: no-repeat;
-    text-indent: -99999px;
-    background-position: center;
 }
 .gnb{
     position: relative;
@@ -172,6 +161,9 @@ a{
 }
 .gnb .d1{
     margin-left: 60px;
+}
+.gnb .d1:first-child{
+    margin-left: 0;
 }
 .gnb li a{
     display: block;
@@ -189,8 +181,7 @@ a{
     top: 27px;
     padding-top: 30px;
     background-color: #fff;
-    width: 130px;
-    
+    width: 130px; 
 }
 .gnb .d1 div li a{
     margin-bottom: 12px;
@@ -225,6 +216,31 @@ a{
     height: 50px;
     background-image: url(/img/main/lettering.png);
     text-indent: -99999px;
+}
+/* 전체메뉴 보기 버튼 */
+.allMenuBtn{
+    position: relative;
+    display: block;
+    margin-top: 5px;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+}
+.allMenuBtn span{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+}
+.allMenuBtn .bar1{
+    top: 0px;
+}
+.allMenuBtn .bar2{
+    top: 8px;
+}
+.allMenuBtn .bar3{
+    top: 16px;
 }
 /* 전체메뉴 보기 */
 .allMenu_bg{

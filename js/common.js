@@ -1,15 +1,45 @@
 // common.js
 
 // 전체메뉴 보기
-$('.allMenuBtn').mouseover(function(){
-    $('.allMenu_bg').show();
-}).mouseout(function(){
-    $('.allMenu_bg').mouseover(function(){
-        $(this).show();
-    }).mouseout(function(){
-        $(this).hide();
-    });
-    $('.allMenu_bg').hide();
+$('.allMenuBtn').click(function(){
+    $(this).toggleClass('on');
+    $('.allMenu_bg').toggle();
+
+    let i = $('.allMenu_bg').css('display');
+    if(i === 'block'){
+        $('.allMenuBtn .bar1').css({
+            top : '8px',
+            transform : 'rotate(45deg)',
+            transition : '0.8s'
+        });
+        $('.allMenuBtn .bar2').css({
+            transform : 'translateX(-50px)',
+            transition : '1s',
+            opacity : 0
+        });
+        $('.allMenuBtn .bar3').css({
+            top : '8px',
+            transform : 'rotate(-45deg)',
+            transition : '0.8s'
+        });
+    } else {
+        $('.allMenuBtn .bar1').css({
+            top : '0px',
+            transform : 'rotate(0)',
+            transition : '0.8s'
+        });
+        $('.allMenuBtn .bar2').css({
+            transform : 'translateX(0)',
+            transition : '1s',
+            opacity : 1
+        });
+        $('.allMenuBtn .bar3').css({
+            top : '16px',
+            transform : 'rotate(0)',
+            transition : '0.8s'
+        });
+    }
+    return false;
 });
 
 // gnb 서브메뉴 보기
