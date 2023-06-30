@@ -33,6 +33,7 @@ a{
     clear: both;
 }
 #wrap{
+    position: relative;
     min-width: 1240px
 }
 /* 안전사이즈 */
@@ -295,6 +296,7 @@ a{
 .allMenu .right p{
     margin-left: 10px;
 }
+
 /* 푸터 왼쪽 영역 */
 #footer{
     height: 350px;
