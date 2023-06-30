@@ -1,9 +1,56 @@
 // main.js
+
+// 스크롤 내리면 해당 영역의 타이틀 나타나기
+$(window).scroll(function(){
+  let st = $(window).scrollTop();
+
+  let a1 = $('.animate1').offset().top;
+  if(st >= a1){
+    $('.main4').find('.title').animate({
+      opacity : 1,
+      marginLeft : 0
+    }, 1000);
+  }
+  let a2 = $('.animate2').offset().top;
+  if(st >= a2){
+    $('.main6').find('.title').animate({
+      opacity : 1,
+      marginLeft : 0
+    }, 1000);
+  }
+  let a3 = $('.animate3').offset().top;
+  if(st >= a3){
+    $('.main7').find('.title').animate({
+      opacity : 1,
+      marginLeft : 0
+    }, 1000);
+  }
+  let a4 = $('.animate4').offset().top;
+  if(st >= a4){
+    $('.main8').find('.title').animate({
+      opacity : 1,
+      marginLeft : 0
+    }, 1000);
+  }
+  let a5 = $('.animate5').offset().top;
+  if(st >= a5){
+    $('.main9').find('.title').animate({
+      opacity : 1,
+      marginLeft : 0
+    }, 1000, function(){
+      $('.main9').find('.tag1, .tag2').animate({
+        opacity : 1
+      }, 1000);
+    });
+  }
+});
+
 // 팝업광고끄기
 $('.popupBtn .close').click(function(){
   $('.popup').hide();
   return false;
 });
+
 // main1 이미지 슬라이드
 $('.slideList').slick({
   dots : true,
@@ -35,6 +82,7 @@ $('.m1_play').click(function(){
   $(this).hide();
   $('.m1_pause').show();
 });
+
 // 메인1 슬라이드 멈춤버튼
 $('.m1_pause').click(function(){
   $('.slideList').slick('slickPause');
@@ -70,4 +118,7 @@ $('.leftBtn').click(function() {
 
   return false;
 });
+
+
+
   
