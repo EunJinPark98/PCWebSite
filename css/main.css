@@ -55,6 +55,7 @@
     cursor: pointer;
 }
 .popupBtn .close span{
+    position: relative;
     display: flex;
     margin-left: 7px;
     width: 10px;
@@ -64,6 +65,9 @@
     content: "";
     display: block;
     height: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .popupBtn .close span:before{
     border-left: 1px solid #555;
