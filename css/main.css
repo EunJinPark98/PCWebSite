@@ -565,6 +565,7 @@
 /* 메인 10 */
 .main10{
     margin-bottom: 126px;
+    overflow: hidden;
 }
 .main10 ul{
     display: flex;
