@@ -65,7 +65,7 @@ a{
     display: block;
     width: 222px;
     height: 29px;
-    background-image: url(/img/main/logo.png);
+    background-image: url(../img/main/logo.png);
     text-indent: -99999px;
 }
 .search{
@@ -85,7 +85,7 @@ a{
     height: 24px;
     border: 0;
     background-color: transparent;
-    background-image: url(/img/main/icon_search.png);
+    background-image: url(../img/main/icon_search.png);
     background-repeat: no-repeat;
     text-indent: -999999px;
     cursor: pointer;
@@ -105,7 +105,7 @@ a{
 }
 .login > a{
     padding-right: 15px;
-    background-image: url(/img/main/icon_drop.png);
+    background-image: url(../img/main/icon_drop.png);
     background-repeat: no-repeat;
     background-position: right 0 center;
 }
@@ -134,7 +134,7 @@ a{
 .cart a{
     position: relative;
     padding-right: 25px;
-    background-image: url(/img/main/icon_cart.png);
+    background-image: url(../img/main/icon_cart.png);
     background-repeat: no-repeat;
     background-position: right 0 center;
 }
@@ -215,7 +215,7 @@ a{
     right: 0;
     width: 319px;
     height: 50px;
-    background-image: url(/img/main/lettering.png);
+    background-image: url(../img/main/lettering.png);
     text-indent: -99999px;
 }
 /* 전체메뉴 보기 버튼 */

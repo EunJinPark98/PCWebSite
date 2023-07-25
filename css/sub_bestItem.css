@@ -9,7 +9,7 @@
     height: 945px;
     margin-top: 15px;
     margin-bottom: 41px;
-    background-image: url(/img/sub_bestItem/banner.png);
+    background-image: url(../img/sub_bestItem/banner.png);
     background-repeat: no-repeat;
     background-position: 50%;
 }
@@ -65,7 +65,7 @@
     width: 100px;
     font-size: 15px;
     color: #666;
-    background-image: url(/img/sub_bestItem/icon_down.png);
+    background-image: url(../img/sub_bestItem/icon_down.png);
     background-repeat: no-repeat;
     background-size: 13px 7px;
     background-position: 65px 13px;
@@ -154,7 +154,7 @@
     width: 13px;
     height: 12px;
     margin-top: 5px;
-    background-image: url(/img/sub_bestItem/icon_nextPage.png);
+    background-image: url(../img/sub_bestItem/icon_nextPage.png);
     background-repeat: no-repeat;
     text-indent: -99999px;
 }

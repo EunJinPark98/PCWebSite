@@ -454,7 +454,7 @@
     position: relative;
     width: 520px;
     height: 600px;
-    background-image: url(/img/main/MDPick_main.png);
+    background-image: url(../img/main/MDPick_main.png);
 }
 .m8_left .board{
     position: absolute;
