@@ -272,35 +272,3 @@
     justify-content: space-between;
 }
 
-
-/* community_notice.html css */
-.notice_in{
-    width: 840px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.notice_in .title{
-    margin-bottom: 30px;
-}
-.nt_board{
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
-}
-.nt_board dt ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ebebeb;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.nt_board dd ul{
-    display: flex;
-    align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.nt_board .no{
-    width: 30px;
-    text-align: center;
-}

@@ -9,7 +9,7 @@
     display: flex;
     flex-wrap: wrap;
     position: fixed;
-    top: 450px;
+    top: 250px;
     left: 60px;
     width: 560px;
     z-index: 1000;
