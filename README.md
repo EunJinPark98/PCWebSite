@@ -1,3 +1,4 @@
+<div align=center>
 # PC 웹사이트 프론트엔드 개발
 
 젝시믹스 사이트의 컨텐츠와 현대백화점몰 사이트의 디자인을 피그마로 결합해서 만든 웹사이트
@@ -8,3 +9,4 @@
 <br>
 ![PC웹사이트](https://github.com/EunJinPark98/PCWebSite/assets/120006805/137e1365-05f3-43e3-8bd2-98afffbce736)
 
+</div>
